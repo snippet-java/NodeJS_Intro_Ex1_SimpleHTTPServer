@@ -1,0 +1,6 @@
+---
+applications:
+- name:    simple-http-server
+  host:    simple-http-server-${random-word}
+  memory:  64M
+  command: node server.js
