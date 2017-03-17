@@ -8,3 +8,5 @@ http.createServer(function(req, res) {
   res.end('Hello World from instance - ' + logPrefix + '\n');     	  
 }).listen(port, host);
 console.log('Server running now');
+
+console.log('hello');
